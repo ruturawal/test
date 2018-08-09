@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../IMAGES/poster.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.headermain {
+	width:100%;
+	background-image: url(../IMAGES/poster.jpg);
+	background-repeat: no-repeat;
+	
+}
+.headerLeft{
+	width:30%;
+	float:left;
+	padding-bottom: 150px;
+	
+	
+}
+
+
+.headerRight{
+	width:70%;
+	height: 100px;
+	font-size:80px;
+	color:dimgray;
+	float:left;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align:right;
+	padding-top: 20px;
+	
+	
+}
+
+a{
+	font-size:40px;
+	color:white;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	width:330px;
+	height:100px;
+	border:3px solid gray;
+	background-color:black;
+	display:inline-block;
+	text-decoration: none;
+	padding-top: 20px;
+    text-align:center;
+}
+	
+	
+	
+a:hover{
+	font-size:40px;
+	color:white;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	width:330px;
+	height:100px;
+	border:3px solid black;
+	background-color:gray;
+	display:inline-block;
+	text-decoration: none;
+	padding-top: 20px;
+	text-align:center;
+	}
+
+.design{
+	width:100%;
+	float:left;
+	text-align: left;
+	font-size: 100px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:black;
+	padding-bottom:80px;
+	padding-left: 50px;
+}
+.despara{
+	width:40%;
+	float:left;
+	text-align: left;
+	font-size: 80px;
+	color:darkslategrey;
+	padding-left: 50px;
+	
+}
+.workLeft{
+	float:left;
+	width:50%;
+	padding-top: 350px;
+	
+}
+.workRight{
+	float:left;
+	width:50%;
+	margin-left: 500px;
+	padding-bottom: 2250px;
+	
+}
+
